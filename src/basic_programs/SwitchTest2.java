@@ -1,5 +1,6 @@
 package basic_programs;
 
+
 import java.util.Scanner;
 
 public class SwitchTest2 {
