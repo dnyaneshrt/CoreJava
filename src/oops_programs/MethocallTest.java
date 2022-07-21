@@ -1,5 +1,7 @@
 package oops_programs;
 
+import basic_programs.Hello;
+
 public class MethocallTest {
     public static void main(String[] args) {
 
@@ -15,11 +17,12 @@ public class MethocallTest {
         String name2=m1.getName("Infeanet");
         System.out.println(name2);
 
-
         //className.staticmethod()
 
         StaticMethods.welcome();// calling static methods
-         System.out.println(StaticMethods.getName("Infeanet"));
+        System.out.println(StaticMethods.getName("Infeanet"));
 
+        Hello h=new Hello();
+        h.sayHello("Soham");
     }
 }
