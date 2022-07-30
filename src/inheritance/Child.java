@@ -20,6 +20,12 @@ class Child2 extends GrandParent
 		System.out.println("from child2 class");
 		Child2 c2=new Child2();
 		c2.property();
+
+		//code to access protected properties.
+		ProtectedTest pt=new ProtectedTest();
+		System.out.println("from ProtectedTest class");
+		System.out.println(pt.id);
+		System.out.println(pt.name);
 	}
 }
 public class Child extends Parent{

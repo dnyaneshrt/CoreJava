@@ -1,8 +1,10 @@
 package oops_programs;
 
+import inheritance.ProtectedTest;
+
 import java.util.Scanner;
 
-public class ArmStrong {
+public class ArmStrong extends ProtectedTest{
 
     public String checkArmStrong(int num)
     {
@@ -22,13 +24,18 @@ public class ArmStrong {
         }
     }
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
+        //code to access protected properties.
+        ArmStrong am=new ArmStrong();
+        System.out.println("from ProtectedTest class");
+        System.out.println("id :"+am.id);
+        System.out.println("name: "+am.name);
+       /* Scanner sc=new Scanner(System.in);
          System.out.println("enter any number:");
         int num=sc.nextInt();
 
         ArmStrong am=new ArmStrong();
         String result=am.checkArmStrong(num);// calling method by passing value
         System.out.println(result);
-
+*/
     }
 }
