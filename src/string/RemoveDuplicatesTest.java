@@ -17,7 +17,6 @@ public class RemoveDuplicatesTest {
         for(int i=0;i<chars.length;i++)
         {
           set.add(chars[i]);
-
         }
         Iterator it=set.iterator();
         while(it.hasNext())

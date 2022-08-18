@@ -8,7 +8,6 @@ public class ExTest1 {
         Scanner sc=new Scanner(System.in);
         int num1=0;
         int num2=0;
-
       try
       {
           System.out.println("enter first number");
