@@ -5,7 +5,6 @@ abstract class Shape
     abstract void area();
 }
 class Circle extends Shape{
-
     @Override
     void area() {
      int r=5;
@@ -16,8 +15,6 @@ class Circle extends Shape{
 
 class Square extends Shape
 {
-
-
     @Override
     void area() {
         int sides=10;
