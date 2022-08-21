@@ -7,7 +7,6 @@ public class ForEachTest {
         {
             System.out.println(n);
         }
-
         String[] names={"dilip","namrata","mohit","soham","salma","amit"};
         for(String name:names)
         {

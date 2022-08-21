@@ -1,9 +1,6 @@
 package string;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Set;
+import java.util.*;
 
 public class RemoveDuplicatesTest {
     public static void main(String[] args) {
@@ -12,7 +9,7 @@ public class RemoveDuplicatesTest {
         char[] chars=test.toCharArray();
         Arrays.sort(chars);
 
-        Set<Character> set=new HashSet<Character>();
+        Set<Character> set=new TreeSet<>();
         String t="";
         for(int i=0;i<chars.length;i++)
         {
