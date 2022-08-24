@@ -12,7 +12,7 @@ public class StringEmailTest {
 
 //      int i= id.indexOf('@');
 //      System.out.println("@ is at index number "+i);
-//
+
 //      int i2= id.indexOf('.');
 //      System.out.println(". is at index number "+i2);
 
