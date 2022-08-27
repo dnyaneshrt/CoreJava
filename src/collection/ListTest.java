@@ -26,7 +26,7 @@ public class ListTest {
         System.out.println("after deleteing list as follows:\n\n"+list);
         System.out.println("total elements in my list after deleting : "+list.size());
 
-    System.out.println("list elements using iterator method as follows:\n");
+      System.out.println("list elements using iterator method as follows:\n");
      Iterator it= list.iterator();
      while(it.hasNext())
      {
