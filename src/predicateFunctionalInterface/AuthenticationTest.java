@@ -40,6 +40,7 @@ public class AuthenticationTest {
         System.out.println("enter password");
         String password=sc.next();
 
+
        if(p1.test(new User(username,password)))
        {
            System.out.println("Welcome!!!!! you are valid user");
